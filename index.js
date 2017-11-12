@@ -4,7 +4,8 @@ class BoardMember {
     this.training = training
     this.homeState = homeState
     }
-  veto(){
+    
+veto(){
    return 'No, I must disagree'
  }
  approve(){
@@ -19,5 +20,4 @@ class BoardMember {
  sayHi(){
    return `Hi, my name is ${this.name}. I am from ${this.homeState}, and I was trained in ${this.training}.`
  }
-  }
-  
+}
